@@ -399,4 +399,3 @@ class Get_Accu_Allergies(hass.Hass):
 
     def get_sinus_info(self, txt):
         self._set_metric_pair("acc_sinus", "Sinus", "mdi:head-remove-outline", txt)
-
